@@ -1,0 +1,5 @@
+[tool.mutmut]
+runner = "python3 -m unittest discover -s tests"
+paths_to_mutate = [
+    "src",
+]
