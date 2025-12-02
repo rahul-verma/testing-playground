@@ -341,5 +341,5 @@ class ProviderBackwardCompatibilityTests(unittest.TestCase):
         validate(instance=response, schema=SKILL_RESPONSE_SCHEMA)
 
 
-if __name__ == "__main__":
-    unittest.main()
+# if __name__ == "__main__":
+#     unittest.main()
