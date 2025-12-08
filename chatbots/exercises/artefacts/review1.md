@@ -2,68 +2,6 @@
 
 In this exercise, you will practice **static testing**: finding issues by reviewing artefacts, without running the system.
 
-### A Short Checklist for Reviewing Artefacts
-
-1. **Scope & Goals**
-   - Are the goals of the system/feature clearly stated and testable?
-
-2. **Supported Channels & Markets**
-   - Are all channels (web, voice, etc.) and markets/languages explicitly listed and treated consistently?
-
-3. **User Journeys & Flows**
-   - Are the main user journeys (happy paths) fully described from start to finish?
-
-4. **Error & “No Data” Paths**
-   - Are fallback paths for missing data, errors, and “no result found” clearly defined?
-
-5. **Business Rules & Thresholds**
-   - Are all business rules, thresholds, and limits documented, unambiguous, and consistent across artefacts?
-
-6. **Compliance / Legal Requirements**
-   - Are legal, regulatory, and industry-specific requirements explicitly captured (not “assumed”)?
-
-7. **Disclaimers & Notices**
-   - Are required disclaimers, consent texts, and recording/privacy notices defined per market/channel?
-
-8. **PII & Sensitive Data Usage**
-   - Is it clear which data is considered PII/sensitive and how it may (or may not) be used?
-
-9. **Data Minimisation**
-   - Is only the minimum necessary personal data collected and stored to achieve the stated goals?
-
-10. **Logging & Redaction**
-    - Are logging rules documented, including which fields are redacted and how long logs are kept?
-
-11. **Security-Sensitive Actions**
-    - Are high-risk actions (refunds, account changes, access to confidential data) clearly controlled and approved?
-
-12. **Roles & Permissions**
-    - Are role-based permissions defined, with restrictions for who can change critical settings or limits?
-
-13. **NLU Intents & Training Data**
-    - Are intents, entities/slots, and example utterances well-defined, non-overlapping, and representative of real users?
-
-14. **Edge Cases & Ambiguity**
-    - Are ambiguous or mixed-intent user messages, hostile language, and “out of scope” topics considered?
-
-15. **Tone, Style & Accessibility**
-    - Is tone appropriate for the domain and markets? Are clarity, politeness, and accessibility needs addressed?
-
-16. **Error Messages & Escalation**
-    - Are error messages understandable and helpful? Are escalation rules (to humans/support) clearly defined?
-
-17. **Configuration Consistency**
-    - Are configuration values (limits, thresholds, flags) consistent between specs, flows, and code/config files?
-
-18. **TODOs & Assumptions**
-    - Are there any “TODO”, “later”, or vague assumptions in critical areas (compliance, security, PII, refunds)?
-
-19. **Monitoring & Metrics**
-    - Is there any mention of how behaviour will be monitored (KPIs, alerts, logs) after go-live?
-
-20. **Change Management & Versioning**
-    - Is there a plan or note on how rules, limits, and flows will be versioned and updated safely over time?
-
 ### Scenario
 
 You are reviewing a new **Casanova agent** for a regulated insurance/finance company that operates in **Germany, other EU markets, and the US**.
