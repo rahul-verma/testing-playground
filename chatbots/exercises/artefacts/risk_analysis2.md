@@ -14,8 +14,6 @@
 
 The above image has some possible components listed:
 
-Components you provide (on a slide or handout):
-
 - Channel Adapters (web, mobile, WhatsApp, etc.)
 - Conversation Orchestrator
 - Intelligence / Skill Layer
