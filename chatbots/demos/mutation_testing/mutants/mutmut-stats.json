@@ -1,11 +1,11 @@
 {
     "tests_by_mangled_function_name": {
-        "refunds.rules.x\u01c1Decision\u01c1__init__": [
+        "refunds.rules.x\u01c1Decision\u01c1__eq__": [
             "tests/test_rules.py::RefundRulesTests::test_approved_basic_case",
             "tests/test_rules.py::RefundRulesTests::test_denied_outside_refund_window_boundary_2",
             "tests/test_rules.py::RefundRulesTests::test_approved_outside_refund_window_boundary_1"
         ],
-        "refunds.rules.x\u01c1Decision\u01c1__eq__": [
+        "refunds.rules.x\u01c1Decision\u01c1__init__": [
             "tests/test_rules.py::RefundRulesTests::test_approved_basic_case",
             "tests/test_rules.py::RefundRulesTests::test_denied_outside_refund_window_boundary_2",
             "tests/test_rules.py::RefundRulesTests::test_approved_outside_refund_window_boundary_1"
@@ -17,10 +17,9 @@
         ]
     },
     "duration_by_test": {
-        "tests/test_rules.py::RefundRulesTests::test_approved_basic_case": 0.0004536672495305538,
-        "tests/test_rules.py::RefundRulesTests::test_denied_outside_refund_window": 0.00023191608488559723,
-        "tests/test_rules.py::RefundRulesTests::test_approved_outside_refund_window_boundary_1": 0.0002967515029013157,
-        "tests/test_rules.py::RefundRulesTests::test_denied_outside_refund_window_boundary_2": 0.00020341714844107628
+        "tests/test_rules.py::RefundRulesTests::test_approved_basic_case": 0.0003864578902721405,
+        "tests/test_rules.py::RefundRulesTests::test_denied_outside_refund_window_boundary_2": 0.00022237421944737434,
+        "tests/test_rules.py::RefundRulesTests::test_approved_outside_refund_window_boundary_1": 0.000315958634018898
     },
-    "stats_time": 0.13514700000000002
+    "stats_time": 0.14503099999999997
 }
