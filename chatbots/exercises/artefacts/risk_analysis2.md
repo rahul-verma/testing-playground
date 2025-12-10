@@ -32,6 +32,7 @@ The above image has some possible components listed:
 - Makes a list of components from the list with it shares first degree if input/output relationship (upstream as well as downstream)
 2. Now for the related components, groups are formed. Otherwise, we adjust till we have groups of 2-3 people in each team.
 3. Participants then go on with the following steps (in both directions):
+
 3.1 Create the risk profile of their own component based on what they think is the criticality of their component in the overall architecture in terms of the following quality dimensions (they can add more dimensions as they find fit.):
 - Functionality (Its role in the overall functionality of the chatbot.)
 - Performance
@@ -40,13 +41,18 @@ The above image has some possible components listed:
 - Globalization
 - Compliance with Law & Standards
 - Technical Dimensions: Extensibility etc. which are critical for future business
+
 3.2 For each type of quality dimension, write one example of a risk e.g. "NLU misclassifies intents for rare queries"
+
 3.3 They assess the risks from the input components which are relevant for them.
+
 3.4 They assess the risks which their component can cause for the immediate components that they send output to.
+
 3.5 Map these risks to methods of mitigation:
 - Preventive (design, process, governance)
 - Detective (tests (levels & types), monitoring, alerts)
 - Corrective (fixes, regression/confirmation testing, rollbacks, etc.)
+
 4. They present, based on the time available, what they found interesting in the output.
 
 ### A short example of a risk
