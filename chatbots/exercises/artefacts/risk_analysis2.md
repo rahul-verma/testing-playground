@@ -42,7 +42,7 @@ The above image has some possible components listed:
 - Compliance with Law & Standards
 - Technical Dimensions: Extensibility etc. which are critical for future business
 
-3.2 For each type of quality dimension, write one example of a risk e.g. "NLU misclassifies intents for rare queries"
+3.2 For each quality dimension, write at least one example of a risk e.g. "NLU misclassifies intents for rare queries"
 
 3.3 They assess the risks from the input components which are relevant for them.
 
