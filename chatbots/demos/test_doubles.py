@@ -203,7 +203,7 @@ class TestOrderStatusHandler(unittest.TestCase):
         response = handler.handle_where_is_my_order("ORDER-404", today=self.today)
 
         self.assertIn("couldn't immediately find your order", response)
-        escalation_mock.escalate.assert_called_once_with("ORDER-404", reason="ORDER_NOT_FOUND")
+        escalation_mock.escalate.assert_called_once_with("ORDER-4014", reason="ORDER_NOT_FOUND")
 
 
 if __name__ == "__main__":

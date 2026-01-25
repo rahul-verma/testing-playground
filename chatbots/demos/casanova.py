@@ -225,7 +225,7 @@ def run_turn(user_input: str, chat_history: list[dict]) -> str:
 
     # First call – model decides whether to call tools
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         messages=messages,
         tools=tools,
         tool_choice="auto",
