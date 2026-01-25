@@ -233,8 +233,8 @@ Inside **Governance & Observability**, *Audit Logs for agents, prompts, routing*
   - Lower is usually better, balanced with clarity.
 
 - **User Effort Metrics**  
-  - # of times user repeats information or intent.  
-  - # of clarification questions from user side.
+  - No. of times user repeats information or intent.  
+  - No. of clarification questions from user side.
 
 - **Recovery Success Rate**  
   - When an error occurs (misrecognition, fallback), how often the system recovers and completes the task.
