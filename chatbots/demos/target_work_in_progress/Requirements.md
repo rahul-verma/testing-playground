@@ -117,7 +117,9 @@ The design includes well-named domain exceptions to represent validation failure
 | `sequence_step` | integer | 1-step vs 2-step vs N-step journey |
 | `next_context_update` | discrete change | dispute opened, refund initiated, failure count incremented, etc. |
 
+### Skeletal Public interface
 
+```python
 # ============================
 # Skeletal Public Interface
 # ============================
@@ -325,7 +327,7 @@ class IOrderTrackingCaller:
         Converts exceptions into caller outcomes.
         """
         raise NotImplementedError
-
+```
 
 ### Flowchart
 
